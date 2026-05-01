@@ -3,7 +3,7 @@
 	<div class="container">
 		<div class="row">
 			<div id="left" class="col-sm-12 {if $showSideboxes && !isset($is404)}col-lg-8{/if}" mainbar>
-				{if $isHomePage}{include file="{$theme_path}views{$DS}parts{$DS}banners.tpl"}{/if}
+				{* {if $isHomePage}{include file="{$theme_path}views{$DS}parts{$DS}banners.tpl"}{/if} *}
 				{if $isHomePage && $MY_sideboxes.top}{include file="{$theme_path}views{$DS}parts{$DS}widgets_top.tpl"}{/if}
 				{include file="{$theme_path}views{$DS}parts{$DS}mainbar.tpl"}
 			</div>
